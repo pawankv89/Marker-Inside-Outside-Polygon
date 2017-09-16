@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D47750461F6D0F3700B78524 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D47750451F6D0F3700B78524 /* AppDelegate.m */; };
+		D47750491F6D0F3700B78524 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47750481F6D0F3700B78524 /* ViewController.m */; };
+		D477504C1F6D0F3700B78524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D477504A1F6D0F3700B78524 /* Main.storyboard */; };
+		D477504F1F6D0F3700B78524 /* MarkerInSideOutSidePolygon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D477504D1F6D0F3700B78524 /* MarkerInSideOutSidePolygon.xcdatamodeld */; };
+		D47750511F6D0F3700B78524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D47750501F6D0F3700B78524 /* Assets.xcassets */; };
+		D47750541F6D0F3700B78524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47750521F6D0F3700B78524 /* LaunchScreen.storyboard */; };
+		D47750571F6D0F3700B78524 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D47750561F6D0F3700B78524 /* main.m */; };
+		D47750611F6D0F3700B78524 /* MarkerInSideOutSidePolygonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D47750601F6D0F3700B78524 /* MarkerInSideOutSidePolygonTests.m */; };
+		D477506C1F6D0F3700B78524 /* MarkerInSideOutSidePolygonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D477506B1F6D0F3700B78524 /* MarkerInSideOutSidePolygonUITests.m */; };
+		D477507B1F6D0FC900B78524 /* CustomerMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D477507A1F6D0FC900B78524 /* CustomerMapAnnotation.m */; };
+		D477507E1F6D110A00B78524 /* MarkerAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D477507C1F6D110A00B78524 /* MarkerAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D477505D1F6D0F3700B78524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D47750391F6D0F3600B78524 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D47750401F6D0F3700B78524;
+			remoteInfo = MarkerInSideOutSidePolygon;
+		};
+		D47750681F6D0F3700B78524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D47750391F6D0F3600B78524 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D47750401F6D0F3700B78524;
+			remoteInfo = MarkerInSideOutSidePolygon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D47750411F6D0F3700B78524 /* MarkerInSideOutSidePolygon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkerInSideOutSidePolygon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D47750441F6D0F3700B78524 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D47750451F6D0F3700B78524 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D47750471F6D0F3700B78524 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D47750481F6D0F3700B78524 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D477504B1F6D0F3700B78524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D477504E1F6D0F3700B78524 /* MarkerInSideOutSidePolygon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarkerInSideOutSidePolygon.xcdatamodel; sourceTree = "<group>"; };
+		D47750501F6D0F3700B78524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D47750531F6D0F3700B78524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D47750551F6D0F3700B78524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D47750561F6D0F3700B78524 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D477505C1F6D0F3700B78524 /* MarkerInSideOutSidePolygonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkerInSideOutSidePolygonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D47750601F6D0F3700B78524 /* MarkerInSideOutSidePolygonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkerInSideOutSidePolygonTests.m; sourceTree = "<group>"; };
+		D47750621F6D0F3700B78524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D47750671F6D0F3700B78524 /* MarkerInSideOutSidePolygonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkerInSideOutSidePolygonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D477506B1F6D0F3700B78524 /* MarkerInSideOutSidePolygonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkerInSideOutSidePolygonUITests.m; sourceTree = "<group>"; };
+		D477506D1F6D0F3700B78524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D47750791F6D0FC900B78524 /* CustomerMapAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomerMapAnnotation.h; sourceTree = "<group>"; };
+		D477507A1F6D0FC900B78524 /* CustomerMapAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomerMapAnnotation.m; sourceTree = "<group>"; };
+		D477507C1F6D110A00B78524 /* MarkerAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkerAnnotation.m; sourceTree = "<group>"; };
+		D477507D1F6D110A00B78524 /* MarkerAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkerAnnotation.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D477503E1F6D0F3700B78524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47750591F6D0F3700B78524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47750641F6D0F3700B78524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D47750381F6D0F3600B78524 = {
+			isa = PBXGroup;
+			children = (
+				D47750431F6D0F3700B78524 /* MarkerInSideOutSidePolygon */,
+				D477505F1F6D0F3700B78524 /* MarkerInSideOutSidePolygonTests */,
+				D477506A1F6D0F3700B78524 /* MarkerInSideOutSidePolygonUITests */,
+				D47750421F6D0F3700B78524 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D47750421F6D0F3700B78524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D47750411F6D0F3700B78524 /* MarkerInSideOutSidePolygon.app */,
+				D477505C1F6D0F3700B78524 /* MarkerInSideOutSidePolygonTests.xctest */,
+				D47750671F6D0F3700B78524 /* MarkerInSideOutSidePolygonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D47750431F6D0F3700B78524 /* MarkerInSideOutSidePolygon */ = {
+			isa = PBXGroup;
+			children = (
+				D477507D1F6D110A00B78524 /* MarkerAnnotation.h */,
+				D477507C1F6D110A00B78524 /* MarkerAnnotation.m */,
+				D47750791F6D0FC900B78524 /* CustomerMapAnnotation.h */,
+				D477507A1F6D0FC900B78524 /* CustomerMapAnnotation.m */,
+				D47750441F6D0F3700B78524 /* AppDelegate.h */,
+				D47750451F6D0F3700B78524 /* AppDelegate.m */,
+				D47750471F6D0F3700B78524 /* ViewController.h */,
+				D47750481F6D0F3700B78524 /* ViewController.m */,
+				D477504A1F6D0F3700B78524 /* Main.storyboard */,
+				D47750501F6D0F3700B78524 /* Assets.xcassets */,
+				D47750521F6D0F3700B78524 /* LaunchScreen.storyboard */,
+				D47750551F6D0F3700B78524 /* Info.plist */,
+				D47750561F6D0F3700B78524 /* main.m */,
+				D477504D1F6D0F3700B78524 /* MarkerInSideOutSidePolygon.xcdatamodeld */,
+			);
+			path = MarkerInSideOutSidePolygon;
+			sourceTree = "<group>";
+		};
+		D477505F1F6D0F3700B78524 /* MarkerInSideOutSidePolygonTests */ = {
+			isa = PBXGroup;
+			children = (
+				D47750601F6D0F3700B78524 /* MarkerInSideOutSidePolygonTests.m */,
+				D47750621F6D0F3700B78524 /* Info.plist */,
+			);
+			path = MarkerInSideOutSidePolygonTests;
+			sourceTree = "<group>";
+		};
+		D477506A1F6D0F3700B78524 /* MarkerInSideOutSidePolygonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D477506B1F6D0F3700B78524 /* MarkerInSideOutSidePolygonUITests.m */,
+				D477506D1F6D0F3700B78524 /* Info.plist */,
+			);
+			path = MarkerInSideOutSidePolygonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D47750401F6D0F3700B78524 /* MarkerInSideOutSidePolygon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D47750701F6D0F3700B78524 /* Build configuration list for PBXNativeTarget "MarkerInSideOutSidePolygon" */;
+			buildPhases = (
+				D477503D1F6D0F3700B78524 /* Sources */,
+				D477503E1F6D0F3700B78524 /* Frameworks */,
+				D477503F1F6D0F3700B78524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkerInSideOutSidePolygon;
+			productName = MarkerInSideOutSidePolygon;
+			productReference = D47750411F6D0F3700B78524 /* MarkerInSideOutSidePolygon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D477505B1F6D0F3700B78524 /* MarkerInSideOutSidePolygonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D47750731F6D0F3700B78524 /* Build configuration list for PBXNativeTarget "MarkerInSideOutSidePolygonTests" */;
+			buildPhases = (
+				D47750581F6D0F3700B78524 /* Sources */,
+				D47750591F6D0F3700B78524 /* Frameworks */,
+				D477505A1F6D0F3700B78524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D477505E1F6D0F3700B78524 /* PBXTargetDependency */,
+			);
+			name = MarkerInSideOutSidePolygonTests;
+			productName = MarkerInSideOutSidePolygonTests;
+			productReference = D477505C1F6D0F3700B78524 /* MarkerInSideOutSidePolygonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D47750661F6D0F3700B78524 /* MarkerInSideOutSidePolygonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D47750761F6D0F3700B78524 /* Build configuration list for PBXNativeTarget "MarkerInSideOutSidePolygonUITests" */;
+			buildPhases = (
+				D47750631F6D0F3700B78524 /* Sources */,
+				D47750641F6D0F3700B78524 /* Frameworks */,
+				D47750651F6D0F3700B78524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D47750691F6D0F3700B78524 /* PBXTargetDependency */,
+			);
+			name = MarkerInSideOutSidePolygonUITests;
+			productName = MarkerInSideOutSidePolygonUITests;
+			productReference = D47750671F6D0F3700B78524 /* MarkerInSideOutSidePolygonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D47750391F6D0F3600B78524 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Pawan Kumar";
+				TargetAttributes = {
+					D47750401F6D0F3700B78524 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					D477505B1F6D0F3700B78524 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D47750401F6D0F3700B78524;
+					};
+					D47750661F6D0F3700B78524 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D47750401F6D0F3700B78524;
+					};
+				};
+			};
+			buildConfigurationList = D477503C1F6D0F3600B78524 /* Build configuration list for PBXProject "MarkerInSideOutSidePolygon" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D47750381F6D0F3600B78524;
+			productRefGroup = D47750421F6D0F3700B78524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D47750401F6D0F3700B78524 /* MarkerInSideOutSidePolygon */,
+				D477505B1F6D0F3700B78524 /* MarkerInSideOutSidePolygonTests */,
+				D47750661F6D0F3700B78524 /* MarkerInSideOutSidePolygonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D477503F1F6D0F3700B78524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47750541F6D0F3700B78524 /* LaunchScreen.storyboard in Resources */,
+				D47750511F6D0F3700B78524 /* Assets.xcassets in Resources */,
+				D477504C1F6D0F3700B78524 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D477505A1F6D0F3700B78524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47750651F6D0F3700B78524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D477503D1F6D0F3700B78524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47750491F6D0F3700B78524 /* ViewController.m in Sources */,
+				D477504F1F6D0F3700B78524 /* MarkerInSideOutSidePolygon.xcdatamodeld in Sources */,
+				D477507E1F6D110A00B78524 /* MarkerAnnotation.m in Sources */,
+				D47750571F6D0F3700B78524 /* main.m in Sources */,
+				D477507B1F6D0FC900B78524 /* CustomerMapAnnotation.m in Sources */,
+				D47750461F6D0F3700B78524 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47750581F6D0F3700B78524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47750611F6D0F3700B78524 /* MarkerInSideOutSidePolygonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47750631F6D0F3700B78524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D477506C1F6D0F3700B78524 /* MarkerInSideOutSidePolygonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D477505E1F6D0F3700B78524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D47750401F6D0F3700B78524 /* MarkerInSideOutSidePolygon */;
+			targetProxy = D477505D1F6D0F3700B78524 /* PBXContainerItemProxy */;
+		};
+		D47750691F6D0F3700B78524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D47750401F6D0F3700B78524 /* MarkerInSideOutSidePolygon */;
+			targetProxy = D47750681F6D0F3700B78524 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D477504A1F6D0F3700B78524 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D477504B1F6D0F3700B78524 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D47750521F6D0F3700B78524 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D47750531F6D0F3700B78524 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D477506E1F6D0F3700B78524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D477506F1F6D0F3700B78524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D47750711F6D0F3700B78524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarkerInSideOutSidePolygon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pk.MarkerInSideOutSidePolygon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D47750721F6D0F3700B78524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarkerInSideOutSidePolygon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pk.MarkerInSideOutSidePolygon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D47750741F6D0F3700B78524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarkerInSideOutSidePolygonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pk.MarkerInSideOutSidePolygonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarkerInSideOutSidePolygon.app/MarkerInSideOutSidePolygon";
+			};
+			name = Debug;
+		};
+		D47750751F6D0F3700B78524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarkerInSideOutSidePolygonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pk.MarkerInSideOutSidePolygonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarkerInSideOutSidePolygon.app/MarkerInSideOutSidePolygon";
+			};
+			name = Release;
+		};
+		D47750771F6D0F3700B78524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarkerInSideOutSidePolygonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pk.MarkerInSideOutSidePolygonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarkerInSideOutSidePolygon;
+			};
+			name = Debug;
+		};
+		D47750781F6D0F3700B78524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarkerInSideOutSidePolygonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pk.MarkerInSideOutSidePolygonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarkerInSideOutSidePolygon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D477503C1F6D0F3600B78524 /* Build configuration list for PBXProject "MarkerInSideOutSidePolygon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D477506E1F6D0F3700B78524 /* Debug */,
+				D477506F1F6D0F3700B78524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D47750701F6D0F3700B78524 /* Build configuration list for PBXNativeTarget "MarkerInSideOutSidePolygon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D47750711F6D0F3700B78524 /* Debug */,
+				D47750721F6D0F3700B78524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D47750731F6D0F3700B78524 /* Build configuration list for PBXNativeTarget "MarkerInSideOutSidePolygonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D47750741F6D0F3700B78524 /* Debug */,
+				D47750751F6D0F3700B78524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D47750761F6D0F3700B78524 /* Build configuration list for PBXNativeTarget "MarkerInSideOutSidePolygonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D47750771F6D0F3700B78524 /* Debug */,
+				D47750781F6D0F3700B78524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D477504D1F6D0F3700B78524 /* MarkerInSideOutSidePolygon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D477504E1F6D0F3700B78524 /* MarkerInSideOutSidePolygon.xcdatamodel */,
+			);
+			currentVersion = D477504E1F6D0F3700B78524 /* MarkerInSideOutSidePolygon.xcdatamodel */;
+			path = MarkerInSideOutSidePolygon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D47750391F6D0F3600B78524 /* Project object */;
+}
