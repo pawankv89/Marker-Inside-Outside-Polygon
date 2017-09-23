@@ -123,10 +123,8 @@ MarkerInSideOutSidePolygon
 }
 ```
 
-### Deep Link Examples
-Rather than boring log messages, I've added two options for Deep Linking a navigation controller:
- - Deep Link 1 will launch a navigation controller
- - Deep Link 2 launches a view controller that has been pushed onto the same navigation controller
+### Examples
+
 
 ```objective-c
 -(void)MarkerInSideOutSidePolygon{
